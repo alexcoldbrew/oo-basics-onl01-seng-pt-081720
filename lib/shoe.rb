@@ -8,7 +8,7 @@ class Shoe
   
   def cobble
     puts "Your shoe is as good as new!"
-    Brand.condition = "new"
+    Shoe.condition = "new"
   end
   
 end
